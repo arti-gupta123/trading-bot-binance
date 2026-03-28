@@ -1,5 +1,5 @@
-logging.basicConfig(
-    filename='trading_bot.log',
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s'
-)
+2026-03-28 16:10:01 - INFO - Order Request: BTCUSDT BUY MARKET 0.001
+2026-03-28 16:10:02 - INFO - Order Response: {'orderId': 12345, 'status': 'FILLED'}
+
+2026-03-28 16:12:05 - INFO - Order Request: BTCUSDT SELL LIMIT 0.001 30000
+2026-03-28 16:12:06 - INFO - Order Response: {'orderId': 67890, 'status': 'NEW'}
